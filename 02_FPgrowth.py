@@ -153,7 +153,7 @@ if __name__ == '__main__':
 
     header_table={}
     root,final_header_table=build_fptree(data,header_table,L_1)
-    print('a')
+
     frequent_patterns={}
     mine_fp_tree(final_header_table,min_support,set(),frequent_patterns)
 
@@ -163,4 +163,7 @@ if __name__ == '__main__':
     for pattern, support in final_results:
         print(f"项集: {set(pattern)} | 支持度: {support}")
 print('a')
+    print('a')
+    print('a')
+
 
