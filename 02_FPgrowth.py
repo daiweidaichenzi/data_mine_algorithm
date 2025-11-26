@@ -162,7 +162,6 @@ if __name__ == '__main__':
 
     for pattern, support in final_results:
         print(f"项集: {set(pattern)} | 支持度: {support}")
-print('a')
     print('a')
     print('a')
 
